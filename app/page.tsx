@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   useEffect(() => {
     setMounted(true);
@@ -19,19 +20,30 @@ export default function Home() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="container">
-          <a href="#" className="logo">{content.header.logo}</a>
-          <div className="nav-links">
+          <div className="logo">{content.header.logo}</div>
+          <div className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
             {content.header.navigation.map((item) => (
-              <a key={item.href} href={item.href}>
+              <a 
+                key={item.href} 
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 {item.label}
               </a>
             ))}
           </div>
+          <button 
+            className="mobile-menu-button"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <Icons.X /> : <Icons.Menu />}
+          </button>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="hero" style={{ backgroundImage: `url(${content.hero.image})` }}>
+      <section id="home" className="hero" style={{ backgroundImage: `url(${content.hero.image})` }}>
         <div className="container">
           <h1>{content.hero.title}</h1>
           <p>{content.hero.description}</p>
