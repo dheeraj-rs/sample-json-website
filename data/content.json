@@ -1,0 +1,111 @@
+{
+  "header": {
+    "logo": "NextLanding",
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Team", "href": "#team" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "Welcome to NextLanding",
+    "subtitle": "Create beautiful experiences that drive success",
+    "description": "We help businesses transform their digital presence with cutting-edge web solutions and innovative design strategies.",
+    "cta": {
+      "primary": { "text": "Get Started", "href": "#contact" },
+      "secondary": { "text": "Learn More", "href": "#about" }
+    },
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2850&q=80"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Our Journey",
+    "description": "With over a decade of experience, we've helped countless businesses achieve their digital transformation goals. Our team of experts combines creativity with technical excellence to deliver outstanding results.",
+    "stats": [
+      { "value": "10+", "label": "Years Experience" },
+      { "value": "200+", "label": "Projects Completed" },
+      { "value": "50+", "label": "Team Members" },
+      { "value": "99%", "label": "Client Satisfaction" }
+    ],
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2850&q=80"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "What We Offer",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "Custom web applications built with cutting-edge technologies",
+        "icon": "Code"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Beautiful and intuitive user interfaces that engage and convert",
+        "icon": "Palette"
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Strategic marketing solutions to grow your online presence",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Cloud Solutions",
+        "description": "Scalable cloud infrastructure for your growing business",
+        "icon": "Cloud"
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the Experts",
+    "members": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO & Founder",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
+        "bio": "15+ years of industry experience"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Lead Developer",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+        "bio": "Full-stack development expert"
+      },
+      {
+        "name": "Emily Davis",
+        "role": "Design Director",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80",
+        "bio": "Award-winning designer"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Marketing Lead",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
+        "bio": "Digital marketing strategist"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "description": "Ready to start your project? Contact us today for a free consultation.",
+    "email": "contact@nextlanding.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Tech Street, Digital City, DC 12345",
+    "social": [
+      { "platform": "Twitter", "url": "#", "icon": "Twitter" },
+      { "platform": "LinkedIn", "url": "#", "icon": "Linkedin" },
+      { "platform": "GitHub", "url": "#", "icon": "Github" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 NextLanding. All rights reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Sitemap", "href": "#" }
+    ]
+  }
+}
